@@ -1,12 +1,13 @@
 # BidiTT
 
-BidiT
 What is it for?
+
 BidiT is an application that is designed to help users easily created bids and leveraging the power of lightning to participate in an auction system with HTLCs.
 This repository houses the codebase for the BidiT application both the client and server.
 The client folder of the application houses the frontend section of the application, built with Reactjs while the server folder houses the backend section of the application built with nodejs.
 
-Config
+# Config
+
 The project depends on a few environment variables to be set.
 The aplication backend connects to an lnd node and the required enviroment variables are   
 *PORT: chosen port through which your application backend  can be accessed  
@@ -16,7 +17,8 @@ The aplication backend connects to an lnd node and the required enviroment varia
 *LND_TLS_CERT: base64 of your lnd tls cert
  The .envrc root file has a list of them.
 
-How to run this repo locally?
+## **How to run this repo locally?**
+
 In the project directory:
 npm install  
 npm run dev:server to start the backend server
